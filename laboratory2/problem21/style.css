@@ -1,0 +1,45 @@
+.first {
+    pointer-events: none;
+    background-color: deeppink;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+
+}
+
+.second {
+    pointer-events: none;
+    background-color: hotpink;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+}
+
+.third {
+    pointer-events: none;
+    background-color: lightpink;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+}
+
+.fourth {
+    background-color: pink;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+    pointer-events: auto;
+}
+
+div:hover {
+    background-color: purple;
+}
+
+/*pointer-events: This disables the event listeners of the parents*/
+
+/*The pointer-events CSS property sets under what circumstances (if any) a
+particular graphic element can become the target of pointer events.*/
